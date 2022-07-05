@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/variables.css">
+  <link rel="stylesheet" href="assets/css/elements.css">
+  <link rel="stylesheet" href="assets/css/classes.css">
+  <link rel="stylesheet" href="assets/css/menu.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+
+ <input id="close-menu" class="close-menu" type="checkbox" aria-label="close menu" role="button">
+  <label class="close-menu-label" for="close-menu" title="close menu"></label>
+  <aside class="menu white-bg">
+    <div class="main-content menu-content">
+      <h1 onclick="getElementById('close-menu').checked = false;">
+        <a href="#home">LOGO</a>
+      </h1>
+
+      <nav>
+        <ul onclick="getElementById('close-menu').checked = false;">
+          <li><a href="#intro">Intro</a></li>
+          <li><a href="#grid-one">Grid-one</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#grid-two">Grid-Two</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>  
+  </aside>
+
+  <div class="menu-spacing"></div>
+
+  <section id="home" class="intro main-bg section">
+    <div class="main-content intro-content">
+      <div class="intro-text-content">
+        <h2>Firefox And Pixar Animation Studios </h2>
+        <p>Back when Firefox was starting out, the internet felt just as unknown, exciting and scary as middle school feels for most people. Honestly, the online world still often feels unknown, exciting and scary. And that is a good thing. This has allowed Firefox to continually reinvent itself over the years, and we will continue to evolve Firefox as we grow with the world. But how we want to show up has not changed. </p>
+      </div>
+      <div class="intro-img">
+       <img src="assets/img/javascript.svg" alt="Icones do HTML, CSS e JS">
+      </div>
+    </div>
+  </section>
+
+
+  <section id="intro" class="white-bg section">
+     <div class="main-content top3-content">
+       <h2> Top 3 jobs</h2>
+       <p>Firefox wants to help build a better internet — a web that feels great for everybody, where everyone can boldly be their authentic selves and show their true colors. This is not something we can do alone, so we are a community-powered browser that puts our users first. As an independent, non-profit-backed browser, we get to make decisions that benefit our users, not just the bottom line. </p>
+       <p>We’re committed to open source technology, we investigate threats to internet health, and we highlight the best of the internet while guiding people through the web because your trust is important to us. One of the ways we do this is by building products like Firefox that help deliver the best of the web while keeping your privacy paramount, giving you the freedom to be your true self online, worry-free. </p>
+       <p>Back when Firefox was starting out, the internet felt just as unknown, exciting and scary as middle school feels for most people. Honestly, the online world still often feels unknown, exciting and scary. And that is a good thing. This has allowed Firefox to continually reinvent itself over the years, and we will continue to evolve Firefox as we grow with the world. But how we want to show up has not changed.</p>
+     </div>
+  </section>
+
+
+  <section id="grid-one" class="grid-one main-bg section">
+    <div class="main-content grid-one-content">
+      <h2 class="grid-main-heading">My Grid</h2>
+      <p class="grid-description">Descrição Simples.</p>
+         <div class="grid">
+          <article>
+            <h3>Teste1</h3>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto suscipit quod placeat fugiat accusantium officia! Ipsam incidunt cumque excepturi non, animi, error eveniet dolor quibusdam dolorem rerum amet quidem facilis?</p>
+          </article>
+          <article>
+            <h3>Teste 2</h3>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi eius inventore dolore eum asperiores repudiandae nulla aliquid deserunt atque, reprehenderit labore, nemo alias sequi impedit quaerat harum! Excepturi, expedita quod.</p>
+          </article>
+          <article>
+            <h3>Teste 3</h3>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi eius inventore dolore eum asperiores repudiandae nulla aliquid deserunt atque, reprehenderit labore, nemo alias sequi impedit quaerat harum! Excepturi, expedita quod.</p>
+          </article>
+         </div>  
+    </div>  
+  </section>
+
+  <section id="gallery" class="grid-one white-bg section">
+    <div class="main-content grid-one-content">
+        <h2 class="grid-main-heading">My Grid</h2>
+        <p class="grid-description">Descrição Simples.</p>
+
+         <div class="grid">
+          <div class="gallery-img">
+            <img src="http://source.unsplash.com/random/360x360" alt="random image from unsplash" />
+          </div>
+          <div class="gallery-img">
+             <img src="http://source.unsplash.com/random/360x360?r=2" alt="random image from unsplash" />
+          </div>
+          <div class="gallery-img">
+             <img src="http://source.unsplash.com/random/360x360?=3" alt="random imagem from unsplash" />
+          </div>
+          <div class="gallery-img">
+            <img src="http://source.unsplash.com/random/360x360?h=1" alt="random image from unsplash" />
+          </div>
+          <div class="gallery-img">
+             <img src="http://source.unsplash.com/random/360x360?o=2" alt="random image from unsplash" />
+          </div>
+          <div class="gallery-img">
+             <img src="http://source.unsplash.com/random/360x360?j=3" alt="random imagem from unsplash" />
+          </div>
+         </div>  
+    </div>  
+  </section>
+
+
+  <section id="grid-two" class="grid-one main-bg section">
+    <div class="main-content grid-one-content">
+      <h2 class="grid-main-heading">My Grid</h2>
+      <p class="grid-description">Descrição Simples.</p>
+         <div class="grid">
+          <article>
+            <h3>Teste1</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto suscipit quod placeat fugiat accusantium officia! Ipsam incidunt cumque excepturi non, animi, error eveniet dolor quibusdam dolorem rerum amet quidem facilis?</p>
+          </article>
+          <article>
+            <h3>Teste 2</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi eius inventore dolore eum asperiores repudiandae nulla aliquid deserunt atque, reprehenderit labore, nemo alias sequi impedit quaerat harum! Excepturi, expedita quod.</p>
+          </article>
+          <article>
+            <h3>Teste 3</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi eius inventore dolore eum asperiores repudiandae nulla aliquid deserunt atque, reprehenderit labore, nemo alias sequi impedit quaerat harum! Excepturi, expedita quod.</p>
+          </article>
+         </div>  
+    </div>  
+  </section>
+
+
+  <section id="pricing" class="white-bg section">
+    <div class="main-content top3-content">
+      <h2> Pricing</h2>
+      <p>Firefox wants to help build a better internet — a web that feels great for everybody, where everyone can boldly be their authentic selves and show their true colors. This is not something we can do alone, so we are a community-powered browser that puts our users first. As an independent, non-profit-backed browser, we get to make decisions that benefit our users, not just the bottom line. </p>
+      <p>We’re committed to open source technology, we investigate threats to internet health, and we highlight the best of the internet while guiding people through the web because your trust is important to us. One of the ways we do this is by building products like Firefox that help deliver the best of the web while keeping your privacy paramount, giving you the freedom to be your true self online, worry-free. </p>
+
+     <div class="responsive-table">
+      <table>
+        <caption> Pricing Table</caption>
+
+        <thead>
+          <tr>
+           <th>Title1</th>
+           <th>Title2</th>
+           <th>Title3</th>
+           <th>Title4</th>
+           <th>Title5</th>
+           <th>Title6</th>
+           <th>Title7</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Content1</td>
+            <td>Content2</td>
+            <td>Content3</td>
+            <td>Content2</td>
+            <td>Content3</td>
+            <td>Content2</td>
+            <td>Content3</td>
+          </tr>
+          <tr>
+            <td>Content1</td>
+            <td>Content2</td>
+            <td>Content3</td>
+            <td>Content2</td>
+            <td>Content3</td>
+            <td>Content2</td>
+            <td>Content3</td>
+          </tr>
+          <tr>
+            <td>Content1</td>
+            <td>Content2</td>
+            <td>Content3</td>
+            <td>Content2</td>
+            <td>Content3</td>
+            <td>Content2</td>
+            <td>Content3</td>
+          </tr>
+        </tbody>
+
+        <tfoot>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>Testando</td>
+          </tr>
+        </tfoot>
+      </table>
+     </div>
+    </div>
+ </section>
+
+ <section id="contact" class="intro main-bg section">
+  <div class="main-content intro-content">
+    <div class="intro-text-content">
+      <h2>Firefox And Pixar Animation Studios </h2>
+      <p>Back when Firefox was starting out, the internet felt just as unknown, exciting and scary as middle school feels for most people. Honestly, the online world still often feels unknown, exciting and scary. And that is a good thing. This has allowed Firefox to continually reinvent itself over the years, and we will continue to evolve Firefox as we grow with the world. But how we want to show up has not changed. </p>
+    </div>
+    <div class="intro-img">
+     <img src="assets/img/javascript.svg" alt="Logo HTML, CSS e JS.">
+    </div>
+
+    <div class="contact-form">
+      <fieldset class="form-grid">
+        <legend>Contact me</legend>
+
+        <div class="form-group">
+          <label for="firt-name">First Name:</label>
+          <input type="text" name="first-name" id="first-name" placeholder="Your Name">
+        </div>
+
+        <div class="form-group">
+          <label for="last-name">Last Name:</label>
+          <input type="text" name="last-name" id="last-name" placeholder="Your Last Name">
+        </div>
+
+        
+        <div class="form-group">
+          <label for="email">E-mail:</label>
+          <input type="email" name="email" id="email" placeholder="mail@mail.com">
+        </div>
+
+        <div class="form-group full-width">
+          <label for="message">Message:</label>
+          <textarea name="message" id="message" placeholder="Your Message" cols="30" rows="10"></textarea>
+        </div>
+
+        <div class="form-group full-width">
+          <button type="submit">Send Message</button>
+        </div>
+      </fieldset>
+     </div>
+  </div>
+</section>
+
+<footer id="footer" class="white-bg footer">
+  <p><a href="#">Feito com <span class="heart">❤</span> por Thaís Nogueira</a></p>
+</footer>
+
+<a class="back-to-top" href="#home">⇪</a>
+
+</body>
+</html>
